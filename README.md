@@ -1,6 +1,6 @@
 # Umich-Stats415-Project-Rotten-food-detection-based-on-ResNet50
 
-A rotten fruit detection algorithm based on resnet50, the term project for ****Umich Stats415 Data Mining and Machine Learning.******
+A rotten fruit detection algorithm based on resnet50, the term project for ****Umich Stats415 Data Mining and Machine Learning.****
 
 
 
