@@ -1,6 +1,21 @@
-# rotten-detect-resnet
-A rotten fruit detection algorithm based on resnet
+# Umich-Stats415-Project-Rotten-food-detection-based-on-ResNet50
+
+A rotten fruit detection algorithm based on resnet50, the term project for ****Umich Stats415 Data Mining and Machine Learning.******
+
+
+
+## Group Members:
+
+- Xiaoyang Sheng
+
+- Yulin Gao
+
+- Zicong Xiao
+
+- Fengyuan Liu
+
 ## Installation
+
 ```shell
 # First make sure conda is installed on your mac
 conda create -n torch-gpu python=3.9
@@ -12,6 +27,7 @@ conda install pytorch torchvision torchaudio -c pytorch
 ```
 
 ## Dataset Setup
+
 - [Fruit rotten detection dataset](https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification)
 
 Dataset used in the original paper, in the `./datasets/Fruit3`
@@ -21,6 +37,7 @@ Dataset used in the original paper, in the `./datasets/Fruit3`
 Supplementary dataset that contains both fruit and vegetables, in the `./datasets/FruitVege`
 
 ## Quickstart
+
 ```shell
 python resnet.py
 ```
@@ -30,8 +47,7 @@ python resnet.py
 ### 6-Class classification of rotten or fresh apples, oranges, and bananas
 
 Accuracy for validation
+
 - Inference without training: 18.6%
 - Inference after training 1 epoch: 98.3%
 - Inference after training 6 epoch: 99.7%
-
-
